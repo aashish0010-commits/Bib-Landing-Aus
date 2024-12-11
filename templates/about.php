@@ -22,7 +22,7 @@
             <div class="card mb-3 mx-auto" style="max-width: 100%;">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="https://bibhutisolutions.com.au/assets/images/about/1.jpg"
+                        <img src="../assets/images/about-img.jpg"
                             class="aboutimg img-fluid rounded-start" style="height: 100%;" alt="...">
                     </div>
                     <div class="col-md-8">

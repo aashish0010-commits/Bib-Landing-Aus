@@ -25,6 +25,15 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         }
 
+        @media screen and (max-width: 768px) {
+            .back-to-top {
+                height: 20px ;
+                width:  20px ;
+                padding: 15px;
+            }
+            
+        }
+
         .back-to-top:hover {
             background-color: grey;
         }

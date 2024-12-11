@@ -34,7 +34,7 @@
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="media">
-                                        <img src="https://tse1.mm.bing.net/th?id=OIP.2WvsyP3WbSiXvqCOjeB9MgHaFY&pid=Api&P=0&h=220" class="mr-3" alt="">
+                                        <img src="../assets/images/testimonial-one.jpeg" class="mr-3" alt="">
                                         <div class="media-body">
                                             <div class="testimonial">
                                                 <p>We have been working with Bibhuti Solutions for two years to develop a robust software application that supports the company’s daily activities. The Mindfire team is highly responsive and professional providing us with great problem solving on a daily basis. They are a tremendous extension of our team.
@@ -46,7 +46,7 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="media">
-                                        <img src="https://content.latest-hairstyles.com/wp-content/uploads/chin-length-bob-haircut-with-bangs-for-chubby-faces.jpg" class="mr-3" alt="">
+                                        <img src="../assets/images/testimonial-two.jpg" class="mr-3" alt="">
                                         <div class="media-body">
                                             <div class="testimonial">
                                                 <p>Bibhuti Solutions has been an integral partner in improving our site's user experience. Their QA testing team is responsive, fast, proactive, and flexible - overall, an absolute pleasure to work with. After just a short amount of time, we've seen significant results.</p>
@@ -61,7 +61,7 @@
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="media">
-                                        <img src="https://readymadeui.com/team-2.webp" class="mr-3" alt="">
+                                        <img src="../assets/images/testimonial-three.jpg" class="mr-3" alt="">
                                         <div class="media-body">
                                             <div class="testimonial">
                                                 <p>I have been involved in big projects for major corporations and the team at Bibhuti Solutions is the best that I have worked with. They are timely, efficient and use best practices in their development work. They move our project along quickly and keep us agile enough to be competitive. I would recommend them to anyone.
@@ -73,7 +73,7 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="media">
-                                        <img src="https://readymadeui.com/team-3.webp" class="mr-3" alt="">
+                                        <img src="../assets/images/testimonial-four.jpg" class="mr-3" alt="">
                                         <div class="media-body">
                                             <div class="testimonial">
                                                 <p>Bibhuti Solutions has been an integral partner in improving our site's user experience. Their QA testing team is responsive, fast, proactive, and flexible - overall, an absolute pleasure to work with. After just a short amount of time, we've seen significant results.</p>

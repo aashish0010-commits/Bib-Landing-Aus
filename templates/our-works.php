@@ -24,7 +24,7 @@
             <div class="col">
                 <a href="#" class="text-decoration-none">
                     <div class="card">
-                        <img src="https://bibhutisolutions.com.au/assets/images/works/swift-carpet-cleaners.jpg" class="card-img-top" alt="Swift Carpet Cleaners">
+                        <img src="../assets/images/work-one.jpg" class="card-img-top" alt="Swift Carpet Cleaners">
                         <div class="card-body">
                             <h5 class="card-title">Swift Carpet Cleaners</h5>
                             <p class="card-text">Welcome to Swift Carpet Cleaners - Caring for your carpets since 1991!</p>
@@ -36,7 +36,7 @@
             <div class="col">
                 <a href="#" class="text-decoration-none">
                     <div class="card">
-                        <img src="https://bibhutisolutions.com.au/assets/images/works/plant-gear.jpg" class="card-img-top" alt="eGear">
+                        <img src="../assets/images/work-two.jpg" class="card-img-top" alt="eGear">
                         <div class="card-body">
                             <h5 class="card-title">eGear</h5>
                             <p class="card-text">Whatever part you want, we will get it for you.</p>
@@ -48,7 +48,7 @@
             <div class="col">
                 <a href="#" class="text-decoration-none">
                     <div class="card">
-                        <img src="https://bibhutisolutions.com.au/assets/images/works/gurkhas-food.jpg" class="card-img-top" alt="Food Restaurant">
+                        <img src="../assets/images/work-three.jpg" class="card-img-top" alt="Food Restaurant">
                         <div class="card-body">
                             <h5 class="card-title">Food Restaurant</h5>
                             <p class="card-text">Serving good food for over 10 years.</p>
@@ -60,7 +60,7 @@
             <div class="col">
                 <a href="#" class="text-decoration-none">
                     <div class="card">
-                        <img src="https://bibhutisolutions.com.au/assets/images/works/mango-travel.jpg" class="card-img-top" alt="Travel Agency">
+                        <img src="../assets/images/work-four.jpg" class="card-img-top" alt="Travel Agency">
                         <div class="card-body">
                             <h5 class="card-title">Travel Agency</h5>
                             <p class="card-text">Thinking like a creative - Explore your dream destination!</p>
@@ -72,7 +72,7 @@
             <div class="col">
                 <a href="#" class="text-decoration-none">
                     <div class="card">
-                        <img src="https://bibhutisolutions.com.au/assets/images/works/asterisk-international.jpg" class="card-img-top" alt="Handmade Products">
+                        <img src="../assets/images/work-five.jpg" class="card-img-top" alt="Handmade Products">
                         <div class="card-body">
                             <h5 class="card-title">Handmade Products</h5>
                             <p class="card-text">Leading producer & exporter of handmade Nepali products.</p>
@@ -84,7 +84,7 @@
             <div class="col">
                 <a href="#" class="text-decoration-none">
                     <div class="card">
-                        <img src="https://bibhutisolutions.com.au/assets/images/works/raffles-educare.jpg" class="card-img-top" alt="Raffles Education">
+                        <img src="../assets/images/work-six.jpg" class="card-img-top" alt="Raffles Education">
                         <div class="card-body">
                             <h5 class="card-title">Raffles Education</h5>
                             <p class="card-text">Shaping students' careers since 2005.</p>

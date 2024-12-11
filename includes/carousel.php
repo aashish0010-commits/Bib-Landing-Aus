@@ -20,7 +20,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://bibhutisolutions.com.au/assets/images/slider/1.jpg" class="d-block w-100" alt="...">
+        <img src="../assets/images/carousel-one.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5><span class="carouspan">We Provide</span><br>Truly Prominent IT Services</h5>
           <p>We will make sure that your company is always on high-profile and up with your competitors.</p>
@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://bibhutisolutions.com.au/assets/images/slider/2.jpg" class="d-block w-100" alt="...">
+        <img src="../assets/images/carousel-two.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5><span class="carouspan">We help</span><br> to Develop Your Businesss</h5>
           <p>We specialize in software application development, interactive website design, and many other services with creative and affordable solutions for small & medium on large business concerns.</p>
