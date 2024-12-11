@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+        font-family: "Roboto", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+
+.aboutbg {
+    background-image: url(https://bibhutisolutions.com.au/assets/images/about/1.png);
+    height: 105vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.abouthone{
+    padding: 30px 0px;
+}
+
+.card-title{
+    font-weight: 400;
+    font-style: italic;
+    font-size: x-large;
+}
+
+.card-text{
+    font-weight: 350;
+}   
+
+@media (min-width: 769px) and (max-width: 1280px) {
+    .aboutimg {
+      width: 100%; 
+      height: auto; 
+      object-fit: cover;
+    }
+
+    .aboutbg{
+        height: 120vh;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+  }
+
+@media screen and (max-width: 768px) {
+    .abouthone{
+        padding: 20px 0px;
+    }
+
+    .imgline{
+        margin-bottom: 1px;
+    }
+
+    .aboutbg {
+        height: 185vh;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+}
+
+.services{
+    padding: 50px 0px;
+}
+
+.serviceshfive{
+    font-style: normal;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-size:x-large;
+}
+
+.serviceshfive i {
+    color: #C52903; 
+}
+
+.serviceshfive:hover {
+    color: #C52903;
+}
+
+.service-card {
+    position: relative;
+    border-bottom: 2px solid transparent;
+    overflow: hidden;
+}
+
+.service-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 0;
+    background-color: #C52903; 
+    transition: width 0.4s ease-in-out;
+}
+
+.service-card:hover::after {
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .servicespara {
+        font-size: 0.9rem; 
+        text-align: justify; 
+    }
+    .shadow {
+        padding: 1.5rem; 
+    }
+    
+}
+
+.pricing-card {
+    border: 2px solid #C52903;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), 0 4px 18px rgba(0, 0, 0, 0.1); /* Adds a shadow */
+    margin-bottom: 20px;
+    border-bottom-left-radius: 30px; 
+    overflow: hidden;
+    min-height: 100%;
+}
+
+.pricing-card-header {
+    background-color: #C52903;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.pricing-card-body {
+    padding: 15px;
+}
+
+.pricing-card-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+.purchase-btn {
+    color: #C52903;
+    border: 2px solid #C52903;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.purchase-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.feature-item {
+    margin-bottom: 10px; 
+    font-size: 15px;
+    font-weight: 350;
+    padding-bottom: 5px; 
+    border-bottom: 1.3px solid #ddd; 
+}
+
+.feature-item strong {
+    font-weight: bold;
+    font-size: 18px;
+}

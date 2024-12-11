@@ -1,0 +1,33 @@
+.works{
+    padding: 0px 0px;
+}
+
+.works .card {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border: none;
+}
+.works .card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+.works .card:hover .card-img-top {
+    filter: brightness(0.85);
+}
+
+.works .card-body{
+    height: 120px;
+}
+
+.works .card:hover .card-body {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.works .btn{
+    background-color: #C52903;
+}
+
+.works h1{
+    position: relative;
+    top: 20px;
+}

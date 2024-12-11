@@ -1,0 +1,41 @@
+.contact span{
+    color: #C52903;
+}
+
+.contact .btn{
+    background-color: #C52903;
+    color: white;
+}
+
+.contact .btn:hover{
+    background-color: grey;
+    color: white;
+}
+
+.contact .bi-geo-alt-fill{
+    color: #C52903;
+}
+
+.contact .bi-envelope-fill{
+    color: #C52903;
+}
+
+.contact .bi-telephone-fill{
+    color: #C52903;
+}
+
+.contact-left {
+    border: 0;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.05); /* Softer and layered shadow */
+    border-radius: 8px; /* Slightly more rounded corners for a modern look */
+    background-color: #fff; /* Ensure the background is consistent */
+}
+
+.contact-right {
+    border: 0;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.05); /* Softer and layered shadow */
+    border-radius: 8px; /* Slightly more rounded corners for a modern look */
+    background-color: #fff; /* Ensure the background is consistent */
+}
