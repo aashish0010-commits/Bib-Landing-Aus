@@ -1,3 +1,6 @@
+<?php
+include '../assets/data/ourWorksData.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,82 +19,23 @@
         <img class="imgline" src="https://bibhutisolutions.com.au/assets/images/line.png" alt="line">
     </div>
     <div class="container my-5">
-    <div class="d-flex justify-content-center mb-4">
-    <button type="button" class="btn btn-danger">Website Development</button>
-</div>
+        <div class="d-flex justify-content-center mb-4">
+            <button type="button" class="btn btn-danger">Website Development</button>
+        </div>
         <div class="our-works-cards row row-cols-1 row-cols-md-3 g-4 ">
-            <!-- Card 1 -->
+            <?php foreach ($ourworksData as $project): ?>
             <div class="col">
                 <a href="#" class="text-decoration-none">
                     <div class="card">
-                        <img src="../assets/images/work-one.jpg" class="card-img-top" alt="Swift Carpet Cleaners">
+                        <img src="<?php echo $project['image']; ?>" class="card-img-top" alt="<?php echo $project['alt']; ?>">
                         <div class="card-body">
-                            <h5 class="card-title">Swift Carpet Cleaners</h5>
-                            <p class="card-text">Welcome to Swift Carpet Cleaners - Caring for your carpets since 1991!</p>
+                            <h5 class="card-title"><?php echo $project['title']; ?></h5>
+                            <p class="card-text"><?php echo $project['description']; ?></p>
                         </div>
                     </div>
                 </a>
             </div>
-            <!-- Card 2 -->
-            <div class="col">
-                <a href="#" class="text-decoration-none">
-                    <div class="card">
-                        <img src="../assets/images/work-two.jpg" class="card-img-top" alt="eGear">
-                        <div class="card-body">
-                            <h5 class="card-title">eGear</h5>
-                            <p class="card-text">Whatever part you want, we will get it for you.</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- Card 3 -->
-            <div class="col">
-                <a href="#" class="text-decoration-none">
-                    <div class="card">
-                        <img src="../assets/images/work-three.jpg" class="card-img-top" alt="Food Restaurant">
-                        <div class="card-body">
-                            <h5 class="card-title">Food Restaurant</h5>
-                            <p class="card-text">Serving good food for over 10 years.</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- Card 4 -->
-            <div class="col">
-                <a href="#" class="text-decoration-none">
-                    <div class="card">
-                        <img src="../assets/images/work-four.jpg" class="card-img-top" alt="Travel Agency">
-                        <div class="card-body">
-                            <h5 class="card-title">Travel Agency</h5>
-                            <p class="card-text">Thinking like a creative - Explore your dream destination!</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- Card 5 -->
-            <div class="col">
-                <a href="#" class="text-decoration-none">
-                    <div class="card">
-                        <img src="../assets/images/work-five.jpg" class="card-img-top" alt="Handmade Products">
-                        <div class="card-body">
-                            <h5 class="card-title">Handmade Products</h5>
-                            <p class="card-text">Leading producer & exporter of handmade Nepali products.</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- Card 6 -->
-            <div class="col">
-                <a href="#" class="text-decoration-none">
-                    <div class="card">
-                        <img src="../assets/images/work-six.jpg" class="card-img-top" alt="Raffles Education">
-                        <div class="card-body">
-                            <h5 class="card-title">Raffles Education</h5>
-                            <p class="card-text">Shaping students' careers since 2005.</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
