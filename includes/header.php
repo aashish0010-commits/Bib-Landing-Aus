@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/header.css">
     <style>
-      
+        /* Add custom styles here if needed */
     </style>
 </head>
 <body>
@@ -40,7 +40,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="homeactive nav-link active" aria-current="page" href="http://localhost/bibhuti_solutions/templates/#home">HOME</a>
+              <a class="homeactive nav-link active" href="http://localhost/bibhuti_solutions/templates/#home">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="http://localhost/bibhuti_solutions/templates/#about">ABOUT</a>
@@ -62,7 +62,8 @@
         </div>
       </div>
     </nav>
-    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../assets/js/header.js"></script>
 </body>
 </html>

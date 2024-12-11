@@ -1,5 +1,4 @@
 <?php
-// Include the data file from assets/data/
 include '../assets/data/servicesData.php';
 ?>
 
@@ -57,9 +56,6 @@ foreach ($servicesData as $service) {
     ";
 }
 ?>
-
-
-
     </div>
 </div>
 
