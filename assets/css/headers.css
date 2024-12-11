@@ -119,10 +119,39 @@
     width: 100%;
     margin-top: 10px;
   }
+
+  .contact-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .contact-bar {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .contact-info {
+        text-align: left;
+    }
+
+    .social-icons {
+        text-align: right;
+    }
+}
+
+
+@media (min-width: 769px) {
   .contact-bar {
     flex-direction: column;
     text-align: center;
-  }
+    }
+}
 
   .social-icons {
     margin-top: 10px;
@@ -141,6 +170,7 @@
     justify-content: center;
   }
 }
+
 
 @media (max-width: 576px) {
   .logo {
