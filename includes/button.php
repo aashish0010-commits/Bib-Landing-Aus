@@ -61,6 +61,7 @@
     </script>
 </head>
 <body>
+    <section>
     <?php
     echo '
     <button id="back-to-top" class="back-to-top">
@@ -68,5 +69,6 @@
     </button>
     ';
     ?>
+    </section>
 </body>
 </html>
